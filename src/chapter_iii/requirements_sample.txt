@@ -1,0 +1,6 @@
+M AddProduct
+F id              int
+F name            char[30]
+F phone_numbers   int[80]
+F order_code      int
+E
