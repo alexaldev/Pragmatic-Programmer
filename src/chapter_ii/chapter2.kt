@@ -1,7 +1,5 @@
 package chapter_ii
 
-
-
 class Account(private val debits: Float,
               private val credits: Float,
               private val fees: Float,
@@ -21,6 +19,10 @@ class Account(private val debits: Float,
     private fun printLine(label: String, value: String) = println("%-9s%s".format(label, value))
     private fun formatAmount(f: Float): String = "%-10.2f".format(f)
 }
+
+// -----Violations
+class Point(val x: Int, val y: Int) 
+class Line(val start: Point, val end: Point, val length: Double)
 
 fun main() {
 
