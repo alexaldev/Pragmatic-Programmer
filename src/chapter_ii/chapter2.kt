@@ -21,13 +21,20 @@ class Account(private val debits: Float,
 }
 
 // -----Violations
-class Point(val x: Int, val y: Int) 
-class Line(val start: Point, val end: Point, val length: Double)
+class Point(val x: Int, val y: Int) {
+    fun distanceTo(other: Point): Double = TODO("I do not know how to calculate Hamiltonian distance yet.")
+}
+class Line(val start: Point, val end: Point) {
+    val length: Double by lazy { start.distanceTo(end) }
+}
 
 fun main() {
 
     Account(1355F, 1000F, 45F, 2500F).also { it.printBalance() }
     Account(1355F, 1000F, -45F, -200F).also { it.printBalance() }
     Account(1355F, 1000F, -45F, 2500F).also { it.printBalance() }
+
+    val l = Line(Point(0, 0), Point(2, 3))
+    println(l.length)
 }
 
