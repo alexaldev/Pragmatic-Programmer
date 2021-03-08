@@ -10,14 +10,15 @@ class Account(private val debits: Float,
     fun printBalance() {
 
         println()
-
-        println("Debits:  ${formatAmount(debits)}")
-        println("Credits: ${formatAmount(credits)}")
-        println("Fees:    ${formatAmount(fees)}")
-        println("    ----")
-        println("Balance: ${formatAmount(balance)}")
+        reportLine("Debits", debits)
+        reportLine("Credits", credits)
+        reportLine("Fees", fees)
+        printLine("", "----")
+        reportLine("Balance", balance)
     }
 
+    private fun reportLine(label: String, value: Float) = printLine(label, formatAmount(value))
+    private fun printLine(label: String, value: String) = println("%-9s%s".format(label, value))
     private fun formatAmount(f: Float): String = "%-10.2f".format(f)
 }
 
