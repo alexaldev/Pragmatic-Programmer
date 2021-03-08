@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5bf12e7-9519-4ecc-afeb-013812f191fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter_ii/chapter2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pragmatic Programmer/CGenerator$WhenMappings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pragmatic Programmer/CGenerator$WhenMappings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pragmatic Programmer/CGenerator$generateFrom$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pragmatic Programmer/CGenerator$generateFrom$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pragmatic Programmer/CGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pragmatic Programmer/CGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pragmatic Programmer/ClassGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pragmatic Programmer/ClassGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pragmatic Programmer/DriverKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pragmatic Programmer/DriverKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pragmatic Programmer/META-INF/Pragmatic Programmer.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pragmatic Programmer/META-INF/Pragmatic Programmer.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pragmatic Programmer/StartingSymbol.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pragmatic Programmer/StartingSymbol.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pragmatic Programmer/chapter_iii/requirements_sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pragmatic Programmer/chapter_iii/requirements_sample.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter_ii/chapter2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter_ii/chapter2.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter_ii/chapter2.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            <state relative-caret-position="285">
+              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -198,10 +188,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-2" width="960" height="1082" extended-state="6" />
+    <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2228145" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.108742006" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -210,7 +200,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32917964" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -271,8 +261,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter_ii/chapter2.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state relative-caret-position="285">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
     </entry>
